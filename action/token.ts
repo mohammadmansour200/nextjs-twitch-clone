@@ -20,6 +20,7 @@ export async function createViewerToken(hostIdentity: string) {
 			user: {
 				userId: id,
 				username,
+				bio: "",
 			},
 		};
 	}

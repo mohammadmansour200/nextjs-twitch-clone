@@ -13,7 +13,8 @@ export function authMiddleware(middleware: CustomMiddleware): CustomMiddleware {
 	) => {
 		const token = await getToken({
 			req: request,
-			secret: process.env.NEXTAUTH_SECRET,
+			secret: process.env.NEXTAUTH_SECRET as string,
+			salt: "",
 		});
 
 		const isLoginPage = request.url.includes("login");
