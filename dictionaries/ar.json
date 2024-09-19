@@ -1,0 +1,141 @@
+{
+	"login": {
+		"header": "سجل الدخول",
+		"description": "للإكمال",
+		"loginBtn": "الإكمال بـGoogle"
+	},
+	"home": {
+		"header": "بثوث خصِّيصًا لك",
+		"noStreams": "لم نجد بثوثًا كي تشاهدها..."
+	},
+	"search": {
+		"header": "نتائج البحث",
+		"noStreams": "لم نجد ما تبحث عنه، جرب البحث بعبارة أخرى..."
+	},
+	"header": {
+		"goBack": "الرجوع للخلف",
+		"searchBarPlaceholder": "ابحث...",
+		"loginBtn": "تسجيل",
+		"userMenu": {
+			"manageAccount": "إدارة الحساب",
+			"signOut": "تسجيل الخروج"
+		},
+		"manageAccountModal": {
+			"title": "الحساب",
+			"description": "أدر معلومات حسابك",
+			"themeSelect": {
+				"darkMode": "داكن",
+				"lightMode": "فاتح",
+				"system": "النظام"
+			},
+			"usernameSection": {
+				"usernameSectionTitle": "اسم المستخدم",
+				"changeUsernameBtn": "تغيير",
+				"changeUsernameSuccess": "تم تغيير اسم المستخدم بنجاح!",
+				"changeUsernameError": "حدث خطأ ما أثناء تغيير المستخدم جرب لاحقًا..."
+			},
+			"bioSection": {
+				"bioSectionTitle": "الوصف",
+				"changeBioBtn": "تغيير",
+				"changeBioSuccess": "تم تغيير وصفك بنجاح!",
+				"changeBioError": "حدث خطأ ما أثناء تغيير الوصف، جرب لاحقًا..."
+			},
+			"dangerSection": {
+				"dangerSectionTitle": "خطر",
+				"deleteAccountBtn": "حذف الحساب",
+				"deleteAccountBtnDescription": "حذف الحساب وجميع البيانات المرتبطة به."
+			}
+		}
+	},
+	"sidebar": {
+		"collapseBtnHint": "طي",
+		"expandBtnHint": "توسيع",
+		"dashboard": "لوحة التحكم",
+		"recommended": "مقترح",
+		"following": "متابع"
+	},
+	"dashboard": {
+		"settingsUpdateSuccess": "تم التغيير بنجاح",
+		"settingsUpdateError": "حدث خطأ ما، جرب تغيير الإعدادات لاحقًا",
+		"sidebar": {
+			"stream": "البث",
+			"keys": "المفاتيح",
+			"chat": "الدردشة",
+			"community": "المجتمع"
+		},
+		"chat": {
+			"title": "إعدادات الدردشة",
+			"enableChat": "تمكين الدردشة",
+			"delayChat": "الوضع البطيء",
+			"followersOnlyChat": "المتابعون فقط"
+		},
+		"keys": {
+			"title": "المفاتيح والروابط",
+			"showKey": "إظهار",
+			"hideKey": "إخفاء",
+			"generate": "توليد بيانات اتصال جديدة",
+			"warning": "تحذير!",
+			"warningDesc": "توليد بيانات اتصال جديدة سيؤدي إلى إيقاف جميع البثوث التي تستخدم بيانات الاتصال الحالية",
+			"cancelBtn": "إلغاء",
+			"generateBtn": "توليد",
+			"generateSuccess": "تم توليد بيانات جديدة بنجاح.",
+			"generateError": "فشل توليد البيانات، جرب مرة أخرى لاحقًا"
+		},
+		"community": {
+			"title": "إعدادات المجتمع",
+			"usernameColumn": "اسم المستخدم",
+			"createdAtColumn": "تاريخ الحظر",
+			"searchTableInputPlaceholder": "ابحث عن مستخدم...",
+			"dataTableNoResults": "لا يوجد نتائج...",
+			"paginationPrev": "الرجوع",
+			"paginationNext": "التالي"
+		}
+	},
+	"streamPlayer": {
+		"chatCollapseBtnHint": "طي",
+		"chatExpandBtnHint": "توسيع",
+		"offlineVideoLabel": "غير متصل",
+		"unmute": "إلغاء الكتم",
+		"mute": "كتم",
+		"fullscreen": "ملء الشاشة",
+		"exitFullscreen": "إلغاء ملء الشاشة",
+		"userOffline": "غير متصل",
+		"editStream": "عدل معلومات البث",
+		"editBtn": "عدل",
+		"infoName": "اسم البث",
+		"infoThumbnail": "الصورة المصغرة",
+		"editStreamSuccess": "تم تعديل اسم البث بنجاح",
+		"editStreamError": "حدث خطأ ما أثناء تعديل اسم البث، جرب لاحقًا",
+		"editSave": "حفظ",
+		"editCancel": "إلغاء",
+		"aboutCardLabel": "عن",
+		"aboutCardFollowers": "المتابِعون",
+		"aboutCardNoBio": "لا يوجد وصف لهذا المستخدم...",
+		"followBtn": "متابعة",
+		"unfollowBtn": "إلغاء المتابعة",
+		"followSuccess": "تمت المتابعة بنجاح",
+		"unfollowSuccess": "تم إلغاء المتابعة بنجاح",
+		"followError": "حدث خطأ ما..",
+		"chatHeaderLabel": "الدردشة",
+		"variationChatHint": "الرجوع للدردشة",
+		"hiddenChat": "الدردشة مغلقة",
+		"welcomeChat": "يا مرحب!",
+		"onlyFollowersChatHint": "فقط المتابعون من يمكنهم الإرسال",
+		"onlyFollowersChatLabel": "المتابعون فقط",
+		"delayedChatHint": "الرسائل تتأخر 3 ثوانٍ",
+		"delayedChatLabel": "الوضع البطيء",
+		"onlyFollowersAndIsDelayedChatHint": "فقط المتابعون من يمكنهم الإرسال. الرسائل تتأخر 3 ثوانٍ",
+		"onlyFollowersAndIsDelayedChatLabel": "المتابعون فقط والوضع البطيء",
+		"chatInputPlaceholder": "ارسل رسالة...",
+		"chatInputSend": "إرسال",
+		"variationCommunityHint": "المجتمع",
+		"hiddenCommunity": "المجتمع مغلق",
+		"searchCommunityInputPlaceholder": "ابحث المجتمع",
+		"searchCommunityNoResults": "لا يوجد نتائج...",
+		"blockBtn": "حظر",
+		"unblockBtn": "إلغاء الحظر",
+		"blockSuccess": "تم حظر",
+		"unblockSuccess": "تم إلغاء حظر",
+		"blockError": "حدث خطأ ما، جرب لاحقًا"
+	}
+}

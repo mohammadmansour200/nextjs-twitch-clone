@@ -1,0 +1,141 @@
+{
+	"login": {
+		"header": "Sign in",
+		"description": "to continue",
+		"loginBtn": "Continue with Google"
+	},
+	"home": {
+		"header": "Streams we think you'll like",
+		"noStreams": "No streams found..."
+	},
+	"search": {
+		"header": "Results for the term",
+		"noStreams": "No results found. Try searching for something else..."
+	},
+	"header": {
+		"goBack": "Go back",
+		"searchBarPlaceholder": "Search...",
+		"loginBtn": "Login",
+		"userMenu": {
+			"manageAccount": "Manage account",
+			"signOut": "Sign out"
+		},
+		"manageAccountModal": {
+			"title": "Account",
+			"description": "Manage your account information",
+			"themeSelect": {
+				"darkMode": "Dark mode",
+				"lightMode": "Light mode",
+				"system": "System default"
+			},
+			"usernameSection": {
+				"usernameSectionTitle": "Username",
+				"changeUsernameBtn": "Change",
+				"changeUsernameSuccess": "Username updated successfully!",
+				"changeUsernameError": "Something went wrong, try updating username later..."
+			},
+			"bioSection": {
+				"bioSectionTitle": "Bio",
+				"changeBioBtn": "Change",
+				"changeBioSuccess": "Bio updated successfully!",
+				"changeBioError": "Something went wrong, try updating bio later..."
+			},
+			"dangerSection": {
+				"dangerSectionTitle": "Danger",
+				"deleteAccountBtn": "Delete Account",
+				"deleteAccountBtnDescription": "Delete your account and all its associated data"
+			}
+		}
+	},
+	"sidebar": {
+		"collapseBtnHint": "Collapse",
+		"expandBtnHint": "Expand",
+		"dashboard": "Dashboard",
+		"recommended": "Recommended",
+		"following": "Following"
+	},
+	"dashboard": {
+		"settingsUpdateSuccess": "Settings updated successfully",
+		"settingsUpdateError": "Something went wrong, try again later",
+		"sidebar": {
+			"stream": "Stream",
+			"keys": "Keys",
+			"chat": "Chat",
+			"community": "Community"
+		},
+		"chat": {
+			"title": "Chat settings",
+			"enableChat": "Enable chat",
+			"delayChat": "Delay chat",
+			"followersOnlyChat": "Followers only"
+		},
+		"keys": {
+			"title": "Keys & URLs",
+			"showKey": "Show",
+			"hideKey": "Hide",
+			"generate": "Generate connection",
+			"warning": "Warning!",
+			"warningDesc": "This action will reset all active streams using the current connection",
+			"cancelBtn": "Cancel",
+			"generateBtn": "Generate",
+			"generateSuccess": "Connections generated successfully.",
+			"generateError": "Connections generation failed. try again later."
+		},
+		"community": {
+			"title": "Community settings",
+			"usernameColumn": "Username",
+			"createdAtColumn": "Date blocked",
+			"searchTableInputPlaceholder": "Search users...",
+			"dataTableNoResults": "No results...",
+			"paginationPrev": "Previous",
+			"paginationNext": "Next"
+		}
+	},
+	"streamPlayer": {
+		"chatCollapseBtnHint": "Collapse",
+		"chatExpandBtnHint": "Expand",
+		"offlineVideoLabel": "is offline",
+		"unmute": "Unmute",
+		"mute": "Mute",
+		"fullscreen": "Enter fullscreen",
+		"exitFullscreen": "Exit fullscreen",
+		"userOffline": "Offline",
+		"editStream": "Edit stream info",
+		"editBtn": "Edit",
+		"infoName": "Stream name",
+		"infoThumbnail": "Thumbnail",
+		"editStreamSuccess": "ٍStream name edited successfully",
+		"editStreamError": "Something went wrong while editing stream's name, try again later",
+		"editSave": "Save",
+		"editCancel": "Cancel",
+		"aboutCardLabel": "About",
+		"aboutCardFollowers": "Followers",
+		"aboutCardNoBio": "No bio provided...",
+		"followBtn": "Follow",
+		"unfollowBtn": "Unfollow",
+		"followSuccess": "User followed successfully",
+		"unfollowSuccess": "User unfollowed successfully",
+		"followError": "User couldn't be followed/unfollowed, try again later",
+		"chatHeaderLabel": "Stream chat",
+		"variationChatHint": "Go back to chat",
+		"hiddenChat": "Chat is disabled",
+		"welcomeChat": "Welcome to the chat!",
+		"onlyFollowersChatHint": "Only followers can chat",
+		"onlyFollowersChatLabel": "Followers only",
+		"delayedChatHint": "Messages are delayed by 3 seconds",
+		"delayedChatLabel": "Slow mode",
+		"onlyFollowersAndIsDelayedChatHint": "Only followers can chat. Messages are delayed by 3 seconds",
+		"onlyFollowersAndIsDelayedChatLabel": "Followers only & Slow mode",
+		"chatInputPlaceholder": "Send a message...",
+		"chatInputSend": "Send",
+		"variationCommunityHint": "Community",
+		"hiddenCommunity": "Community is disabled",
+		"searchCommunityInputPlaceholder": "Search community",
+		"searchCommunityNoResults": "No results...",
+		"blockBtn": "Block",
+		"unblockBtn": "Unblock",
+		"blockSuccess": "Blocked the user",
+		"unblockSuccess": "Unblocked user",
+		"blockError": "User couldn't be blocked/unblocked, try again later"
+	}
+}
