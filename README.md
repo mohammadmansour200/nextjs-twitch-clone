@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<img src="https://imgur.com/0bh7xd0.png" />
 
-First, run the development server:
+## Features
+
+• 📡 Streaming using your preferred protocol (WHIP/RTMP) from any Platform you like (OBS, Zoom etc.)
+
+
+• 🔐 Google OAuth
+
+• 📸 Upload custom stream thumbnail
+
+• 💬 Real-time Stream chat
+
+• 👥 Following and Recommendation system
+
+• 👢 Blocking Kicking participants from a stream in real-time
+
+• 🎛️ Streamer Dashboard
+
+• 🐢 Slow chat mode
+
+• 🔒 Followers only chat mode
+
+• 📴 Enable/Disable chat
+
+• 🔍 Search Streams and Users
+
+• 🎨 Modern design
+
+• 🌗 Dark/Light mode
+
+• 🌐 Multi-lingual support
+
+• 📄 SSR (Server-Side Rendering) and SEO optimization
+
+
+## Usage
+
+### 1. Create a .env file in the root directory and add the following environment variables:
+```env
+NEXTAUTH_URL= 
+NEXTAUTH_SECRET=
+
+// For help with the oauth id and secret check this https://support.google.com/cloud/answer/6158849?hl=en
+AUTH_GOOGLE_ID=
+AUTH_GOOGLE_SECRET=
+
+DATABASE_URL=
+
+LIVEKIT_API_URL=
+LIVEKIT_API_KEY=
+LIVEKIT_API_SECRET=
+NEXT_PUBLIC_LIVEKIT_WS_URL=
+
+UPLOADTHING_TOKEN=
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Setup Prisma
+
+```bash
+npx prisma generate
+npx prisma db push
+```
+
+### 4. Run dev server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
